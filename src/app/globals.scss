@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+.block1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+}
+
+.poster {
+  border: 2px solid green;
+  border-radius: 6px;
+}
+
+.block2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.block {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  &__img1 {
+    background-color: aquamarine;
+    width: 30vw;
+  }
+  &__img2 {
+    background-color: cyan;
+    width: 30vw;
+  }
+}
