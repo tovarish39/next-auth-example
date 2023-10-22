@@ -1,4 +1,4 @@
-import { Providers } from "@/Providers"
+import { Providers } from "@/components/Providers"
 import "./globals.scss"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
